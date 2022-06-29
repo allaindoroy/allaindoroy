@@ -5,6 +5,9 @@
   box-sizing: border-box;
   font-family: 'Poppins', sans-serif;
 }
+.webIcon,icon {
+  border-radius: 50px;
+}
 .logo a{
   font-family: 'Alfa Slab One';font-size: 22px;
   letter-spacing: 4px;
@@ -17,6 +20,11 @@ body {
   background-position: center;
   background-attachment: fixed;
   
+}
+
+.responsive {
+  width: 100%;
+  height: auto;
 }
 
 /* custom scroll bar */
