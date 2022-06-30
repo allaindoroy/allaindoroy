@@ -253,35 +253,21 @@
 
 <br>
 
-    <form id="myForm">
-         <label>Name <br></label>
-            <input type="text" name="yourname"
-            value=" "
-            placeholder="please enter your name"
-            />
-            <br>
-            <br>
-            <label>Email <br></label>
-            <input type="text" name="yourEmail"
-            value=" "
-            placeholder="please enter your Email"
-            />
-            <br>
-            <br>
-            <label>Message <br></label>
-            <input type="text" name="yourmessage"
-            value=" "
-            placeholder="please enter your message"
-            />
-            <br>
-            <br>
-            <input type="checkbox" name="updateme"
-            value="yes" />
-            please send me an update.
-            <br>
-            <br>
-          <input type="button" onclick="myFunction()" value="submit">
-        </form>
+    <form id="myForm" action="https://formspree.io/f/mgedbbzn" method="POST">
+     <input type="text" name="name" placeholder="Fullname" required>
+     <br>
+     <br>
+     <input type="email" name="email" placeholder="Email Address" required>
+     <br>
+     <br>
+     <input type="text" name="number" placeholder="Phone no." required>
+     <br>
+     <br>
+     <textarea placeholder="message me"></textarea>
+     <br>
+     <br>
+     <button type="submit">Send</button>
+</form>
 
         <script>
         function myFunction() {
