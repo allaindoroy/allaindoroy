@@ -294,9 +294,17 @@ tr:nth-child(even) {
   background-color: #dddddd;
 }
 
+.social{
+  align-items:center;
+}
+
 .social img{
   height: 3%;
   width: 3%;
+}
+
+.Info{
+  align-items:center;
 }
 
 .Info img{
@@ -332,6 +340,10 @@ button:hover{
   text-align:center;
   align-items:center;
 }
+
+
+
+
 
 
 
