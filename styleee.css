@@ -303,6 +303,11 @@ tr:nth-child(even) {
   width: 3%;
 }
 
+.social li{
+  display: flex;
+
+}
+
 .Info{
   align-items:center;
 }
@@ -310,6 +315,10 @@ tr:nth-child(even) {
 .Info img{
   height: 3%;
   width: 3%;
+}
+
+.Info li{
+  display: flex;
 }
 
 .Info li p{
