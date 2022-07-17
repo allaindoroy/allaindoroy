@@ -288,14 +288,15 @@ tr:nth-child(even) {
 
 .social{
   align-items:center;
+  text-align: center;
 }
 
 .social img{
-  height: 45px;
-  width: 45;
+  height: 50px;
+  width: 45%;
   display: block;
-  margin-left: 470%;
 }
+
 
 .social img:hover{
   transition: .5s ease;
@@ -304,6 +305,7 @@ tr:nth-child(even) {
 
 .social li{
   display:inline-block;
+  text-align: center;
   
 
 }
